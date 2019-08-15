@@ -1,4 +1,4 @@
-﻿const Discord = require("discord.js");
+const Discord = require("discord.js");
 const client = new Discord.Client();
 const prefix = "$";
 
@@ -185,4 +185,4 @@ client.on("message", message => { //clear
 
 
 
-client.login(process.env.NjExNjU4NzY4MjkxMzMyMjA4.XVXFsA.Kl1t_KugYrBaBJ-h4jB4A_PH8ro);
+client.login(process.env.BOT_TOKEN);
